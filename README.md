@@ -31,14 +31,14 @@ The txt has 13 colums. The 1st column is running time of simulation in unit ms. 
 text_{count}\_NMDA.txt
 Same as text_{count}_AMPA.txt, but the 2-13 columns are total recurrent NMDA current.
 
-text_{count}_GABA_L1.txt
+text_{count}\_GABA_L1.txt
 Same as text_{count}_AMPA.txt, but the 2-13 columns are total recurrent GABA current from inhibitory neurons that do not receive inhibitory pulse input.
 
-text_{count}_GABA_L2.txt
+text_{count}\_GABA_L2.txt
 Same as text_{count}_AMPA.txt, but the 2-13 columns are total recurrent GABA current from inhibitory neurons that receive inhibitory pulse input.
 
-text_{count}_V.txt
+text_{count}\_V.txt
 Same as text_{count}_AMPA.txt, but the 2-13 columns are total membrane potential of neurons.
 
-E=3.00I=8.00P={connectivity}_W_{count}_0_{connectivity}.txt 
+E=3.00I=8.00P={connectivity}\_W\_{count}_0_{connectivity}.txt 
 A matrix representing the final synaptic weights after learning. Each number of the matrix is the synaptic weight from the neuron with label (column number -1) to neuron with label (row number -1).
