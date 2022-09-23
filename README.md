@@ -11,9 +11,10 @@ The model used in this work is composed of conductance-based integrate-and-fire 
 
 In main.cpp, you can decide
 
-the time interval between two recordings, t_record.
-Able/disable feedforward E->I plasticity, LTP.
-the theta, and gamma frequency and number of pulses applied within one theta period during rescue when feedforward E->I plasticity is not disabled, theta, gamma, pulse_number.
+With or without rescue input (inhibitory pulse to inhibitory neurons).
+Network connectivity, from 0 to 1.
+With or without learning. 
+
 the numbering of the simulation, count
 To run the simulation, you can run cmd in window, go to the directory folder and type mingw32-make. It will generate an exe, named "main.exe".
 
