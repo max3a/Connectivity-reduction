@@ -11,7 +11,9 @@ The model used in this work is composed of conductance-based integrate-and-fire 
 
 In main.cpp, you can decide
 
+The recoding number.
 With or without rescue input (inhibitory pulse to inhibitory neurons).
+The recsue input frequency if resuce input is applid.
 Network connectivity, from 0 to 1.
 With or without learning. 
 
